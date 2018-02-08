@@ -26,7 +26,7 @@ namespace DiscordDerpBot
                 new Program().Start(args[0]).GetAwaiter().GetResult();
         }
 
-        private static string Token = "MzY4OTg0NDc0OTQ1NTg1MTUy.DVFEHQ.B8pvrvvv6VhLROBncxcjobM7e7s";
+        private static string Token = "";
 
         private DiscordSocketClient _client;
 
